@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+<body>
+    <form action="">
+        <h4>General Details</h4>
+
+        <!-- to enter text -->
+        <div>
+            <label for="username">username :</label><br>
+            <input type="text" name="username" placeholder="enter a username" value="gg">
+        </div>
+        <br>
+
+        <!-- to enter text -->
+        <div>
+            <label for="fullname">fullName :</label><br>
+            <input type="text" name="fullName" size="10">
+        </div>
+        <br>
+
+        <!-- to enter numbers -->
+        <div>
+            <label for="phoneNum">phone number :</label><br>
+            <input type="number" name="phoneNumber"  >
+        </div>
+        <br>
+
+        <!-- to enter emails -->
+        <div>
+            <label for="email">email :</label><br>
+            <input type="email" name="email">
+        </div>
+        <br>
+
+        <!-- password -->
+        <div>
+            <label for="password">password :</label><br>
+            <input type="password" name="password">
+        </div>
+        <br>
+
+        <!-- radio/options -->
+        <div>
+            <label for="gender">gender :</label><br>
+            Male : <input type="radio" name="gender"><br>
+            Female : <input type="radio" name="gender">
+        </div>
+        <br>
+
+        <!-- checkbox -->
+        <div>
+            <label for="subjects">subjects :</label><br>
+            html : <input type="checkbox" name="html"><br>
+            css : <input type="checkbox" name="css"><br>
+            js : <input type="checkbox" name="js">
+        </div>
+        <br>
+
+        <!-- drop down -->
+        <div>
+            <label for="subject">choose a subject :</label>
+            <select name="subject" id="sub">
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="js">js</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="">address :</label><br>
+            <textarea name="text" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+
+        <!-- submit and reset buttons -->
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
