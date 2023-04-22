@@ -1,0 +1,91 @@
+
+/* ---------------------------------------------------------------------
+
+------------------------------Simple Selectors-------------------------- */
+
+
+
+/* 1. Tag selector : we use html tags to select an elemet */
+
+h1{
+    border: 1px solid lightblue;
+    color: blue;
+    font-size: 40px;
+}
+
+p{
+    border: 1px dashed red;
+    color: maroon;
+    font-size: 40px;
+}
+
+/* 2. Class selector : it selects html elements with specific class attributes */
+/* Syntax :
+ .class_name{
+    property : value;
+} */
+
+.para{
+    color: red;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    font-size: 16px;
+}
+
+.btn-1{
+    background-color: greenyellow;
+}
+
+.btn-2{
+    background-color: yellow;
+}
+
+.btn-3{
+    background-color: red;
+}
+
+/* 3. Id selector : it selects html elements with specific Id */
+/* Syntax :
+ #id_name{
+    property : value;
+} */
+
+#para-1{
+     color: burlywood;
+}
+
+
+
+/* 4. Universal selector : it selects all the html elements in your page */
+/* Syntax :
+ *{
+    property : value;
+} */
+
+*{
+    text-align: center;
+}
+
+/* 5. Grouping selector : Used for grouping different selectors with same style */
+
+/* h1,p{
+    color: aqua;
+}
+
+.para,#para-1{
+    color: blueviolet;
+} */
+
+
+/* ---------------------------------------------------------------------
+
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+
+------------------------------Combinator Selectors-------------------------- */
