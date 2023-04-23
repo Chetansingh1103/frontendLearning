@@ -88,4 +88,143 @@ p{
 
 /* ---------------------------------------------------------------------
 
-------------------------------Combinator Selectors-------------------------- */
+------------------------------Combinator Selectors---------------------- */
+
+
+
+/* 1. General Sibling selector : */
+
+div ~ h2{
+    background-color: red;
+}
+
+.head ~ p{
+    color: red;
+}
+
+
+/* 2. Adjacent Sibling Selector : */
+
+div + h2 {
+    background-color: yellow;
+}
+
+#para-2 + .head{
+    color: orangered;
+}
+
+
+/* 3. Child Selector (>) : */
+
+div > h2 {
+    background-color: green;
+}
+
+
+/* 4. Descendant Selector : */
+
+div p {
+    background-color: lightskyblue;
+}
+
+
+
+/* ---------------------------------------------------------------------
+
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+
+------------------------------Pseudo class Selectors--------------------- */
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+div:hover{
+    background-color: blue;
+}
+
+input:focus{
+   background-color: green;
+}
+
+input:active{
+    background-color: brown;
+}
+
+.btn:hover{
+    background-color: aqua;
+    border: 5px solid greenyellow;
+}
+
+.btn:active{
+    background-color: cornflowerblue;
+}
+
+.container p:first-child{
+    color: black;
+}
+
+
+/* 2n is for even */
+.container p:nth-child(2n):hover{  
+    background-color: black;
+}
+
+
+/* ---------------------------------------------------------------------
+
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+
+------------------------------Pseudo Element Selectors-------------------*/
+
+.para-1::first-line{
+    color: greenyellow;
+}
+
+.para-1::first-letter{
+    color: red;
+}
+
+.para-1::after{
+    content: "hey there this is present inside after pseudo-element";
+}
+
+.para-1::before{
+    content: url(../../vacation.png);
+}
+
+/* ---------------------------------------------------------------------
+
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+
+------------------------------Attribute Selectors------------------------ */
+/*--> used for input types */
+
+/* Syntax :
+  selector[attribute_name = "value"] */
+
+input[type="text"]{
+    border: 1px solid blue;
+}
+
+input[type="email"]{
+    border: 2px solid red;
+}
