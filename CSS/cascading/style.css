@@ -1,0 +1,43 @@
+p{
+    color: red;
+    color: blue;
+}
+
+/* this will not change anything because of the prescedence */
+/* ::marker{
+    text-align: end !important;
+} */
+
+#para-1{
+    color: pink;
+    border: 3px solid red;
+    padding: 10px 12px;
+}
+
+[type="text"]{
+    border: 1px solid purple;
+}
+
+.para{
+    color: green;
+}
+
+/* *{
+    color: darkmagenta;
+} */
+
+:hover{
+    color: black;
+}
+
+input{
+    border: 1px solid blue;
+}
+
+section{
+    color: palevioletred;
+}
+
+span{
+    color: inherit;
+}
