@@ -1,0 +1,22 @@
+.container{
+    background-color: lightblue;
+    height: 400px;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    /* align-items: baseline; */
+    /* align-content: center;
+    gap: 20px; */
+}
+
+.container .item{
+    width: 20%;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 2px;
+}

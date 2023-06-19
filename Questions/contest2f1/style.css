@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background: #FCAF02;
+    height: 56px;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo img{
+    width: 27%;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.nav-items{
+    margin-right: 40px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0px 22px;
+}
+
+.container{
+    background-color: black;
+    padding-left: 63px;
+    padding-right: 50px;
+}
+
+.home-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.home-page .image{
+    width: 50%;
+}
+
+.home-page .image > img{
+    width: 100%;
+}
+
+.home-page .content{
+    width: 50%;
+}
+
+
+.home-page .content h1{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 78px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+
+.home-page .content p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.content .btn{
+    background: #FCAF02;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    padding: 14px 114px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.contact-us{
+    padding-top: 50px;
+}
+
+.contact-us h1{
+    width: 35%;
+    color: #FCAF02;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+form{
+    padding: 65px 0px;
+}
+
+.form-control input{
+    width: 95%;
+    border: 1.5px solid #FCAF02;
+    border-radius: 100px;
+    height: 45px;
+    margin: 15px 0px;
+    margin-right: 50px;
+    outline: none;
+    background-color: black;
+}
+
+.form-control-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control-1 input{
+    width: 47%;
+    margin-top: 15px;
+}
+
+::placeholder{
+    color: #FCAF02;
+    font-size: 17px;
+    font-weight: 100;
+    padding-left: 40px;
+}
