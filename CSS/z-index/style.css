@@ -1,0 +1,35 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+div:hover{
+    width: 120px;
+    height: 120px;
+}
+
+.red{
+    background-color: red;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.green{
+    background-color: green;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+
+.blue{
+    background-color: blue;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+.yellow{
+    background-color: yellow;
+}

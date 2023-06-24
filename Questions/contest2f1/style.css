@@ -74,7 +74,7 @@
     color: #FFFFFF;
 }
 
-.content .btn{
+.btn{
     background: #FCAF02;
     border-radius: 50px;
     font-weight: 700;
@@ -127,4 +127,34 @@ form{
     font-size: 17px;
     font-weight: 100;
     padding-left: 40px;
+}
+
+.table{
+    color: #FCAF02;
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+
+table, thead{
+    width: 100%;
+    border: 2px solid #FCAF02;
+}
+
+td, th{
+    border-left: 2px solid #FCAF02;
+}
+
+tfoot td{
+    border: 2px solid black;
+}
+
+table, tr, td, th{
+    padding: 25px;
+    border-collapse: collapse;
+}
+
+tfoot{
+    color: black;
+    background-color: #FCAF02;
+    border: 2px solid black;
 }
