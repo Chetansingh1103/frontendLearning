@@ -1,0 +1,15 @@
+.navbar-collapse{
+    justify-content: end;
+}
+
+.nav-item{
+    padding-right: 100px;
+}
+
+.carousel-inner{
+    height: 88vh;
+}
+
+.fixed-bottom{
+    left: 933px;
+}
